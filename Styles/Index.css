@@ -1,0 +1,198 @@
+/* Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Reset*/
+
+body {
+    background: rgba(250, 163, 7, 1);
+    width: 1152px;
+    height: 700px;
+}
+
+    .box1, .box2, .box3, .box4, .box5 {
+        position: absolute;
+        height: 200px;
+        width: 253px;
+        box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+ 
+
+    .box1__dot, .box2__dot, .box3__dot, .box4__dot, .box5__dot {
+        background: #748CAB;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 50%;
+        max-width: 50px;
+        width: 100%;
+        height: 50px;
+        margin: 10px;
+    }
+
+       /* <Container 1> */
+    .box1 {
+        background: rgba(3, 7, 30, 1);  
+        margin-left: 146px;
+        margin-top: 120px;
+    }
+
+    .box1__dot2 {
+        align-self: center;
+        position: absolute;
+    }
+    /* utan absolute vill den inte hamna precis i mitten */
+
+    .box1__dot:nth-child(5) {
+        margin-left: 80px;
+        align-self: center;
+        position: absolute;
+
+    } 
+
+    /* </Container 1> */
+
+    /* <Container 2> */
+    .box2 {
+        background: rgba(106, 4, 15, 1);
+        margin-left: 439px;
+        margin-top: 120px;
+        align-items: flex-end;
+        flex-direction: row-reverse;
+    }
+    .box2__dot:nth-child(4) {
+        margin-left: 10px;
+        align-self: center;
+        position: absolute;
+    }
+
+    .box2__dot:nth-child(5) {
+        align-self: center;
+        position: absolute;
+        margin-right: 80px;
+    }
+
+    /* </Container 2> */
+
+    /* <Container 3> */
+    .box3 {
+        background: rgba(3, 7, 30, 1);  
+        margin-left: 732px;
+        margin-top: 120px;
+        justify-content: space-between;   
+    }
+
+    .box3__dot2 {align-self: flex-end;}
+
+    /* .box3__dot:nth-child(4) {
+        margin-left: 10px;
+        align-self: flex-end;
+        position: absolute;
+    }
+    .box3__dot:nth-child(5) {
+        align-self: flex-end;
+        margin-left: 101.5px;
+        position: absolute;
+    }
+    .box3__dot:nth-child(6) {
+        margin-left: 193px;
+        align-self: flex-end;
+        position: absolute;
+    } */
+
+
+   
+      /* </Container 3> */
+
+
+    /* <Container 4> */
+    .box4 {
+        background: rgba(106, 4, 15, 1); 
+        margin-left: 146px;
+        margin-top: 360px;
+        justify-content: space-between;
+    }
+
+    .box4__dot {
+        margin-top: 25px;
+    }
+
+    /* .box4__dot:nth-child(4) {
+        margin-left: 10px;
+        align-self: flex-end;
+        position: absolute;
+        margin-bottom: 25px;
+    }
+    .box4__dot:nth-child(5) {
+        align-self: flex-end;
+        margin-left: 101.5px;
+        position: absolute;
+        margin-bottom: 25px;
+    }
+    .box4__dot:nth-child(6) {
+        margin-left: 193px;
+        align-self: flex-end;
+        position: absolute;
+        margin-bottom: 25px;
+    }
+
+     */
+
+    /* </Container 4> */
+
+    /* <Container 5> */
+    .box5 {
+        background: rgba(3, 7, 30, 1);  
+        margin-left: 439px;
+        margin-top: 360px;
+        align-content: center;
+            justify-content: center;
+      
+    }
+ 
+
+    
+    /* </Container 5> */
